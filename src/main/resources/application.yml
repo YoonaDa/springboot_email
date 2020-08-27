@@ -1,0 +1,24 @@
+server:
+  port: 9999
+
+spring:
+  mail:
+    host: smtp.163.com
+    # 代码发送的邮箱(替换为你自己的邮箱)
+    username: xxxxxxxxxx
+    # 邮箱授权码(替换为你自己的邮箱授权码)
+    password: xxxxxxxxxx
+    # 自定义发送邮箱的昵称
+    nickname: YoonaDa
+    protocol: smtp
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.port: 994
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
+    default-encoding: utf-8
+# 配置swagger
+swagger:
+  title: API Document
+  description: 接口文档
+  version: v1
