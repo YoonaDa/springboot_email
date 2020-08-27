@@ -1,0 +1,2 @@
+# springboot_email
+一个简单的SpringBoot整合email的demo
